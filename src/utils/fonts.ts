@@ -8,28 +8,33 @@ export const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-playfair",
   weight: ["400", "700"],
+  style: ["italic", "normal"],
 });
 
 export const lobster = Lobster({
   subsets: ["latin"],
   variable: "--font-lobster",
   weight: ["400"],
+  style: ["normal"],
 });
 
 export const bungeeShade = Bungee_Shade({
   subsets: ["latin"],
   variable: "--font-bungee-shade",
   weight: ["400"],
+  style: ["normal"],
 });
 
 export const indieFlower = Indie_Flower({
   subsets: ["latin"],
   variable: "--font-indie-flower",
   weight: ["400"],
+  style: ["normal"],
 });
 
 export const anonymousPro = Anonymous_Pro({
   subsets: ["latin"],
   variable: "--font-anonymous-pro",
   weight: ["400", "700"],
+  style: ["normal"],
 });
