@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Polaroid } from "@/components/photoGroups/Polaroid";
+import { Button } from "@/components/Buttons/Button";
 
 export default function Home() {
   return (
@@ -9,6 +11,12 @@ export default function Home() {
         <p>This text is in Roboto.</p>
         <p className="font-bold">This is bold Roboto text.</p>
       </div>
+      <Polaroid className="Cover Image" imageSrc="/images/image.png" caption="Loren Ipsum Sere Vana!" />
+      <Polaroid className="Cover Image" imageSrc="/images/image.png" caption="Loren Ipsum Sere Vana!" />
+      <Polaroid className="Cover Image" imageSrc="/images/image.png" caption="Loren Ipsum Sere Vana!" />
+      <Polaroid className="Cover Image" imageSrc="/images/image.png" caption="Loren Ipsum Sere Vana!" />
+      <Polaroid className="Cover Image" imageSrc="/images/image.png" caption="Loren Ipsum Sere Vana!" />
+      <Button text="LISTEN TO THIS EPISODE" variant="secondary" href="google.com" />
     </main>
   );
 }

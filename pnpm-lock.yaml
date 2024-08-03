@@ -23,9 +23,6 @@ importers:
       '@fontsource/playfair-display':
         specifier: ^5.0.24
         version: 5.0.24
-      '@next/font':
-        specifier: ^14.2.5
-        version: 14.2.5(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.40)
@@ -103,11 +100,6 @@ packages:
 
   '@next/env@14.2.5':
     resolution: {integrity: sha512-/zZGkrTOsraVfYjGP8uM0p6r0BDT6xWpkjdVbcz66PJVSpwXX3yNiRycxAuDfBKGWBrZBXRuK/YVlkNgxHGwmA==}
-
-  '@next/font@14.2.5':
-    resolution: {integrity: sha512-e2f3M+tAuJPUyXwWtEPKlPfpPEKODiQvPjdxOWBZC+zgdGv18KfjTkEmopfkfpZ016yCvw5BmMPeuEU/uiDf9g==}
-    peerDependencies:
-      next: '*'
 
   '@next/swc-darwin-arm64@14.2.5':
     resolution: {integrity: sha512-/9zVxJ+K9lrzSGli1///ujyRfon/ZneeZ+v4ptpiPoOU+GKZnm8Wj8ELWU1Pm7GHltYRBklmXMTUqM/DqQ99FQ==}
@@ -736,10 +728,6 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.5.0
 
   '@next/env@14.2.5': {}
-
-  '@next/font@14.2.5(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
-    dependencies:
-      next: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
   '@next/swc-darwin-arm64@14.2.5':
     optional: true

@@ -5,7 +5,8 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb:  255, 246, 221;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,18 +14,65 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --font-playfair: "Playfair Display", serif;
+    --font-lobster: "Lobster", cursive;
+    --font-bungee-shade: "Bungee Shade", sans-serif;
+    --font-indie-flower: "Indie Flower", cursive;
+    --font-anonymous-pro: "Anonymous Pro", monospace;
+    --white-primary: theme("colors.colors.white.primary");
+
   }
 }
+.shadow-polaroid {
+  box-shadow: 0 4px 6px theme("colors.colors.yellow.900");
+}
+
+.general-border {
+  border: 0.75px solid theme("colors.colors.yellow.900");
+}
+
+.dotted-border {
+  border-bottom: 1px dotted theme("colors.colors.black.main");
+  border-top: 1px dotted theme("colors.colors.black.main");
+}
+
+  .btn-primary {
+    background-color: theme('colors.colors.black.main');
+    padding: theme('padding.1');
+    border-radius: theme('borderRadius.sm');
+    font-family: var(--font-anonymous-pro);
+    text-transform: uppercase;
+    color: theme('colors.colors.white.primary');
+  }
+
+  .btn-primary:hover {
+    background-color: theme('colors.colors.white.primary');
+    border: 1px solid theme('colors.colors.black.main');
+    font-family: var(--font-anonymous-pro);
+    text-transform: uppercase;
+    color: theme('colors.colors.black.main');
+  }
+  .btn-secondary {
+    padding: theme('padding.1');
+    font-family: var(--font-anonymous-pro);
+    text-transform: uppercase;
+    color: theme('colors.colors.black.main');
+  }
+
+  .btn-secondary:hover {
+    font-family: var(--font-anonymous-pro);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: theme('colors.colors.black.main');
+  }
+
+  
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: theme("colors.colors.white.primary");
+  color: theme("colors.colors.black.main");
 }
+
 
 @layer utilities {
   .text-balance {

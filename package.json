@@ -14,7 +14,6 @@
     "@fontsource/indie-flower": "^5.0.19",
     "@fontsource/lobster": "^5.0.20",
     "@fontsource/playfair-display": "^5.0.24",
-    "@next/font": "^14.2.5",
     "autoprefixer": "^10.4.20",
     "next": "14.2.5",
     "react": "^18",
